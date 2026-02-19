@@ -1,0 +1,28 @@
+# Exclude git directory and ignore file
+.git/
+.gitignore
+
+# Exclude GitHub Actions workflows
+.github/
+
+# Exclude virtual environments
+venv/
+env/
+.env
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Exclude agent definitions and project management files from the build context
+agents/
+projects/
+memory/
+*.md
